@@ -5,6 +5,7 @@ using namespace std;
 int main() {
 
     int limite_utilisateur;
+    int diviseur = 0;
     char relancer_programme;
 
     cout << "Ce programme affiche les nombres premiers suivant la saisie" << endl;
@@ -15,9 +16,10 @@ int main() {
     } while (limite_utilisateur < 2 || limite_utilisateur > 1000);
 
     //Calcul, divisible par 1 et lui-même uniquement
-    for (int nombre_premier = 1; nombre_premier <= limite_utilisateur; ++nombre_premier) {
-        if (nombre_premier % 2 == 0) {
-            cout << nombre_premier << endl;
+    for (int i = 2; i <= limite_utilisateur; ++i) {
+        diviseur ++;
+        if (i % diviseur == 0) {
+            cout << i << endl;
         }
     }
 
