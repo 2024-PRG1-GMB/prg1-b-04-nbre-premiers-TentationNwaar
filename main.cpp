@@ -16,11 +16,8 @@ int main() {
 
     //Calcul, divisible par 1 et lui-même uniquement
     for (int nombre_premier = 1; nombre_premier <= limite_utilisateur; ++nombre_premier) {
-        cout << "nombre_premier" << endl;
-        if (nombre_premier % nombre_premier != 0){
-            if (nombre_premier % 2 == 0){
-                cout << nombre_premier << endl;
-            }
+        if (nombre_premier % 2 == 0) {
+            cout << nombre_premier << endl;
         }
     }
 

@@ -1,6 +1,5 @@
 # ninja log v5
-0	10	0	clean	3c8e6cc385ee00ba
-0	590	1728037106480326007	CMakeFiles/prg1_b_04_nbre_premiers_TentationNwaar.dir/main.cpp.o	eaacce2f0e2001a3
-591	680	1728037106572024954	prg1_b_04_nbre_premiers_TentationNwaar	f7c2ebf65cfd9c5b
-2	573	1728037141091643464	CMakeFiles/prg1_b_04_nbre_premiers_TentationNwaar.dir/main.cpp.o	eaacce2f0e2001a3
-573	662	1728037141182750492	prg1_b_04_nbre_premiers_TentationNwaar	f7c2ebf65cfd9c5b
+0	516	1728046119134591207	CMakeFiles/prg1_b_04_nbre_premiers_TentationNwaar.dir/main.cpp.o	eaacce2f0e2001a3
+517	604	1728046119225035276	prg1_b_04_nbre_premiers_TentationNwaar	f7c2ebf65cfd9c5b
+5	675	1728047359079040186	CMakeFiles/prg1_b_04_nbre_premiers_TentationNwaar.dir/main.cpp.o	eaacce2f0e2001a3
+675	781	1728047359187835713	prg1_b_04_nbre_premiers_TentationNwaar	f7c2ebf65cfd9c5b
