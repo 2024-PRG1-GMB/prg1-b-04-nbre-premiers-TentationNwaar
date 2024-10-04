@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 
     int limite_utilisateur;
-    int diviseur = 0;
+    bool estPremier;
     char relancer_programme;
 
     cout << "Ce programme affiche les nombres premiers suivant la saisie" << endl;
@@ -17,10 +17,18 @@ int main() {
 
     //Calcul, divisible par 1 et lui-même uniquement
     for (int i = 2; i <= limite_utilisateur; ++i) {
-        diviseur ++;
-        if (i % diviseur == 0) {
+        estPremier = true;
+        for (int diviseur = 2; diviseur < i; ++diviseur) {
+            if (i % diviseur == 0) {
+                estPremier = false;
+                break;
+            }
+        }
+
+        if (estPremier){
             cout << i << endl;
         }
+
     }
 
     //Afficher nbr premier sur 5 colonnes
