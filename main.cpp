@@ -1,3 +1,7 @@
+//Date : 07.10.2024
+//Auteur : Maxence Weyermann
+//Description : Affiche les nombres premiers jusqu'à la limite de l'utilisateur
+
 #include <iostream>
 #include <iomanip>
 
